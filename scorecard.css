@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    text-align: center;
+}
+img{
+    height: 8rem;
+    width: 15rem;
+}
+main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+p{
+    height: 3rem;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    border-radius: 10px;
+}
+div{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#teama{
+    color: red;
+}
+#teamb{
+    color: yellow;
+}
+h2{
+    font-size: 4rem;
+    margin: 0;
+    height: 5rem;
+}
+button{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    color: green;
+    border: none;
+    border-radius: 10px;
+}
+.rbutton:active{
+    background-color: red;
+}
+.ybutton:active{
+    background-color: yellow;
+}
+#redp{
+    background-color: red;
+    margin-right: 5px;
+}
+#yellowp{
+    background-color: yellow;
+    margin-left: 5px;
+}
+.rbutton{
+    gap: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.ybutton{
+    gap: 10px;
+    border: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#firsth2{
+    font-family: "Bebas Neue", sans-serif;
+}
+#secondh2{
+    font-family: "Rubik Scribble", system-ui;
+}
